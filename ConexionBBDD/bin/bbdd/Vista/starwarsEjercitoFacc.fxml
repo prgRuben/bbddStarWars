@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" stylesheets="@../../../Resources/estilos.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bbdd.Vista.starwarsEjercitoFaccionesController">
+   <children>
+      <TableView fx:id="tableViewFacciones" layoutX="168.0" layoutY="134.0" prefHeight="349.0" prefWidth="190.0" styleClass="background-listasDatos" AnchorPane.bottomAnchor="117.0" AnchorPane.leftAnchor="168.0" AnchorPane.rightAnchor="542.0" AnchorPane.topAnchor="134.0">
+         <columns>
+            <TableColumn fx:id="tablaFacciones" prefWidth="249.0" styleClass="background-listasDatos" text="Facciones" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <TableView fx:id="tablaSolVeh" layoutX="586.0" layoutY="280.0" prefHeight="276.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="columSolVeh" prefWidth="199.0" styleClass="background-listasDatos" />
+        </columns>
+         <styleClass>
+            <String fx:value="columnaVeh" />
+            <String fx:value="background-listasDatos" />
+         </styleClass>
+      </TableView>
+      <ImageView fx:id="imgFaccion" fitHeight="217.0" fitWidth="319.0" layoutX="586.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Resources/Imagenes/FondoInicio.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnVehiculos" layoutX="14.0" layoutY="431.0" mnemonicParsing="false" onAction="#BotonVehiculosClicked" prefHeight="52.0" prefWidth="99.0" styleClass="botonSoldados" text="Vehiculos" />
+      <Button fx:id="btnSoldados" layoutX="14.0" layoutY="134.0" mnemonicParsing="false" onAction="#BotonSoldadosClicked" prefHeight="52.0" prefWidth="99.0" styleClass="botonSoldados" text="Soldados" />
+      <Text layoutX="64.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aqui puede Ver una lista de Soldados y Vehículos, Separados por Facciones" textAlignment="CENTER" wrappingWidth="368.515625">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

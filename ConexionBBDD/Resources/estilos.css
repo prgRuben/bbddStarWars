@@ -1,0 +1,125 @@
+.background{
+	-fx-background-image: url("../Resources/Imagenes/StarWarsInicio.png");
+	-fx-background-size: cover,auto;
+	-fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+.botonInicio{
+	-fx-graphic: url("http://icons.iconarchive.com/icons/3xhumed/star-wars-the-old-republic/72/Star-Wars-The-Old-Republic-8-icon.png");
+}
+.botonSeresSensibles{
+	-fx-graphic: url("http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-40/64/Star-Wars-The-Force-Unleashed-2-4-icon.png");
+}
+.botonSeresNoSensibles{
+	-fx-graphic: url("http://icons.iconarchive.com/icons/jonathan-rey/star-wars-characters/64/R2D2-01-icon.png");
+}
+.botonSeresFaccionRaza{
+	-fx-graphic: url("http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-33/64/Star-Wars-Republic-Commando-5-icon.png");
+}
+.botonPlanetaSerBatalla{
+	-fx-graphic: url("http://icons.iconarchive.com/icons/jonathan-rey/star-wars-characters/64/Java-the-Hutt-icon.png");
+}
+.botonPlanetaBattle{
+	-fx-graphic: url("http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-31/64/Star-Wars-KotR-II-The-Sith-Lords-3-icon.png");
+}
+.botonSoldados{
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+.split-pane *.split-pane-divider {
+-fx-padding: 0 0 0 0
+}
+.split-pane:horizontal > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+.split-pane:vertical > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+.boton_personalizado:hover{
+    -fx-color: #1883ba;
+    -fx-background-color: #ffffff;
+}
+.background-listasDatos{
+	-fx-background-color: #090a0c;
+	-fx-text-fill: Gold;
+}
+.background-texto-Sabiduria{
+	-fx-background-image: url(../Resources/Imagenes/introStarWars.jpg);
+	-fx-background-color: transparent;
+	-fx-background-repeat: stretch;
+	-fx-background-position: center center;
+	-fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+.star-wars-intro {
+  	-fx-font: 18px "Swis721 Ex BT";
+  	-fx-text-fill: Black;
+  	-fx-text-alignment: Justify;
+}
+.table-view .column-header {
+    -fx-background-color: Gold;
+}
+.table-view *.scroll-bar:horizontal *.increment-button,
+.table-view *.scroll-bar:horizontal *.decrement-button {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.table-view *.scroll-bar:horizontal *.increment-arrow, 
+.table-view *.scroll-bar:horizontal *.decrement-arrow {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-shape: null;
+}
+.split-pane {
+    -fx-padding: 0;
+}
+.split-pane:vertical > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+.table-view {
+  -fx-table-cell-border-color: transparent;
+}
+.table-view .table-row-cell {
+  -fx-border-width: 1;
+}
+.background-intro {
+	-fx-background-image: url("../Resources/Imagenes/introStarWars.jpg");
+	-fx-background-size: cover,auto;
+	-fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+.letrasStarWars {
+	-fx-text-fill: Gold;
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: Gold;
+    -fx-text-fill: Black;
+}
+.list-cell {
+	-fx-background-color: Black;
+    -fx-text-fill: Gold;
+}
+.text-area .content {
+    -fx-background-color: Black;
+}
+.text-area {
+    -fx-text-fill: Gold;
+    -fx-font-size: 18px;
+    -fx-alignment: top-center;
+}
+

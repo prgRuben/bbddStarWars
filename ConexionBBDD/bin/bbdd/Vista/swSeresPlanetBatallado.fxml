@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefWidth="1100.0" stylesheets="@../../../Resources/estilos.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bbdd.Vista.starwarsSeresPlanetaBatalladoController">
+   <children>
+      <SplitPane cacheShape="false" centerShape="false" dividerPositions="0.14389799635701275" focusTraversable="false" pickOnBounds="false" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="236.0">
+               <children>
+                  <TableView fx:id="tablaSeres" prefHeight="598.0" prefWidth="216.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <columns>
+                        <TableColumn fx:id="columNombreSer" prefWidth="154.0" styleClass="background-listasDatos" text="Seres" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="900.0">
+               <children>
+                  <TableView fx:id="tablaDetalles" mouseTransparent="true" pickOnBounds="false" prefHeight="598.0" prefWidth="792.0" styleClass="background-intro" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="tablanombres" prefWidth="101.0" resizable="false" styleClass="background-listasDatos" text="Nombre" />
+                      <TableColumn fx:id="tablaPlaneta" prefWidth="107.0" resizable="false" styleClass="background-listasDatos" text="Planeta Atacado" />
+                        <TableColumn fx:id="tablaFacciones" minWidth="0.0" prefWidth="728.0" resizable="false" styleClass="background-listasDatos" text="Facciones Enfrentadas" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

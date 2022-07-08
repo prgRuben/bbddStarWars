@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bbdd.Vista.swPantPrincipalController">
+   <left>
+      <ToolBar orientation="VERTICAL" prefHeight="512.0" prefWidth="107.0" styleClass="background-intro" stylesheets="@../../../Resources/estilos.css" BorderPane.alignment="CENTER">
+        <items>
+          <Button fx:id="btnInicio" mnemonicParsing="false" onAction="#BotonInicioClicked" prefHeight="75.0" prefWidth="95.0" styleClass="botonInicio" />
+            <Button fx:id="btnSeresFaccRaza" mnemonicParsing="false" onAction="#BotonSeresFaccRazaClicked" prefHeight="75.0" prefWidth="95.0" styleClass="botonSeresFaccionRaza" />
+            <Button fx:id="btnPlanetBattle" mnemonicParsing="false" onAction="#BotonPlanetBttlClicked" prefHeight="75.0" prefWidth="95.0" styleClass="botonPlanetaBattle" />
+            <Button fx:id="btnPlanetSerBatalla" mnemonicParsing="false" onAction="#BotonPlanetSerBattleClicked" prefHeight="75.0" prefWidth="95.0" styleClass="botonPlanetaSerBatalla" />
+            <Button fx:id="btnSeresSens" mnemonicParsing="false" onAction="#BotonSeresSensibClicked" prefHeight="75.0" prefWidth="95.0" styleClass="botonSeresSensibles" />
+        </items>
+      </ToolBar>
+   </left>
+</BorderPane>
